@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon -->
+        <link rel="icon" href="images/emoji.png" type="image/png">        <!-- Render All Elements -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- Google Fonts live  --> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+        <!-- Template CSS File -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>  
+    <body>
+        <h1></h1>
+        <h2 style="margin: 10px auto 50px; max-width: 700px; text-align: center; background-color: white; padding: 15px 10px; border-radius: 8px;">
+            <p style="margin-bottom: 10px; font-style: italic; text-decoration: underline;">The words Game</p>
+            <p>"Ship", "Tour", "Look", "Site", "Pink", "Main", "Tell", "Only"</p>
+        </h2>
+
+        <div class="container">
+            <div class="guess-game">
+                <div class="game-area">
+                    <div class="inputs"></div>
+                    <div class="control">
+                        <button class="check">Check Word</button>
+                        <button class="hint"><span></span> Hints</button>
+                    </div>
+                    <div class="message"></div>
+                </div>
+                <div class="key-colors">
+                    <h2>Key Colors</h2>
+                    <div class="key-color">
+                        <div class="key in-place"></div>
+                        <div class="key-text">Letter Is Correct and In Place</div>
+                    </div>
+                    <div class="key-color">
+                        <div class="key not-in-place"></div>
+                        <div class="key-text">Letter Is Correct But Not In Place</div>
+                    </div>
+                    <div class="key-color">
+                        <div class="key no"></div>
+                        <div class="key-text">Letter Is Wrong</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer></footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>
